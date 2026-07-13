@@ -1,0 +1,399 @@
+body{
+	background-color: #f9f9f9;
+	font-size: 20px;
+	color: #444;
+	font-family: arvo;
+  width: 95%;
+}
+
+.login{
+    max-width: 500px;
+    margin: 150px auto;
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #FFA500;
+    text-align: center;
+  }
+  
+  .login img {
+    margin: -60px;
+    margin-left: -50px;
+    border-radius: 50%;
+  }
+  .login h3 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    padding-top: 60px;
+  }
+  .login p {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  fieldset {
+    margin: 10px;
+    border: none;
+  }
+  input[type="text"],
+  input[type="password"],
+  input[type="file"],
+  select,
+  textarea {
+    width: 90%;
+    padding: 0.8rem;
+    margin-top: 1em;
+    border: 1px solid #333;
+    background-color: #ffffff;
+    font-family: Cambria;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+.dh12{
+    width: 99.99%;
+    float: left;
+  display: inline;
+  margin: 0 0%;
+  margin-top: 20px;
+}
+@media screen and (max-width: 720px) {
+    .tombol{
+        width: 100%;
+        margin-bottom: -1em;
+    }
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFA500;
+    overflow-x: hidden;
+    padding-top: 60px;
+    text-align: center;
+    
+  }
+  .sidenav img {
+    margin: 0px;
+    margin-left: 0px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+  }
+  
+  .sidenav a {
+    padding: 4px 8px 4px 0px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #2c2c2c;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #ffffff;
+  }
+  
+  .sidenav h3 {
+    text-align: center;
+    color: #2c2c2c;
+    font-size: 20px;
+    padding-top: -30px;
+  }
+  
+  .sidenav p {
+    text-align: center;
+    color: #2c2c2c;
+    font-size: 14px;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .sidenav hr {
+    border: 1px solid white;
+    width: 90%;
+    text-align: center;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 50px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
+  .container1 {
+    background-color: #FFA500;
+    width: 100%;
+    color:2c2c2c;
+    font-family: Cambria;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  .container1 a {
+    color: #2c2c2c;
+    text-decoration: none;
+  }
+  .container1 a hover {
+    color: #2c2c2c;
+  }
+.badan{
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+
+.menu ul{
+	list-style: none;
+}
+.menu ul li a{
+	float: left;
+	width: 90px;
+	display: block;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+background-color: #FFA500;
+display: block;
+}
+.content{
+	width: 100%;
+	margin: auto;
+	padding: 0.1px;
+	color: #333;
+    padding-top: 30px;
+}
+
+.btn {
+    padding: 9px 9px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: Cambria;
+    font-size: 14px;
+    margin-top: 10px;
+    width: auto;
+  }
+  .btn-btn {
+    color: #333;
+    background-color: #FFA500;
+    margin-bottom: 20px;
+    width: 80px;
+  }
+  .btn-add {
+    color: #333;
+    background-color: #FFA500;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .btn-add:hover {
+    color: #ffffff;
+    background-color: #444;
+  }
+
+  .card {
+    width: 90%;
+    margin: 17px;
+    min-height: 230px;
+    border: thin;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+  }
+  
+  .kepalacard {
+    padding: 10px;
+    background-color: #FFA500;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="file"],
+  select,
+  textarea {
+    width: 90%;
+    padding: 0.8rem;
+    margin-top: 1em;
+    border: 1px solid #333;
+    background-color: #ffffff;
+    font-family: Cambria;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    width: auto;
+    margin-top: 0.9em;
+    color: #333;
+    background-color: #FFA500;
+    padding: 0.8em;
+    cursor: pointer;
+    border: 1px solid #FFA500;
+    font-family: Cambria;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .card {
+    margin: 17px;
+    min-height: 230px;
+    border: thin;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+  }
+  
+  .kepalacard {
+    padding: 10px;
+    background-color: #FFA500;
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 20px;
+  }
+  
+  .isicard {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    color: #333;
+    min-height: 185px;
+    font-size: 14px;
+  }
+  
+  .isicard select {
+    width: 100px;
+    padding: 0.8em;
+    margin-top: 1em;
+    border: 1px solid #FFA500;
+    background-color: #ffffff;
+    font-family: Cambria;
+    font-size: 14px;
+    color: #FFA500;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .isicard hr,
+  .isicard img {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+  }
+  
+  
+  .isicard big {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .kakicard {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    color: #FFA500;
+    text-align: right;
+    min-height: 50px;
+  }
+  
+  .dh3 {
+    width: 49.99%;
+  }
+  .dh1,
+.dh2,
+.dh3,
+.dh4,
+.dh5,
+.dh6,
+.dh7,
+.dh8,
+.dh9,
+.dh10,
+.dh11,
+.dh12 {
+  float: left;
+  display: inline;
+  margin: 0 0%;
+}
+
+@media screen and (max-width: 720px) {
+  .dh1,
+  .dh2,
+  .dh3,
+  .dh4,
+  .dh5,
+  .dh6,
+  .dh7,
+  .dh8,
+  .dh9,
+  .dh10,
+  .dh11,
+  .dh12 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.container3 {
+    background-color: #FFA500;
+    height: 20px;
+    width: 100%;
+    color: #333;
+    font-family: Cambria;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .jarak{
+    border: 1px solid #707070;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .tepi{
+    border: 2px solid #FFA500;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    padding-left: 30px;
+  }
+  .tepi p{
+    margin-left: 40px;
+  
+  }
+
+ th{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+ } 

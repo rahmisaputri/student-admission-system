@@ -1,0 +1,348 @@
+body{
+	background-color: #f9f9f9;
+	font-size: 14px;
+	color: #444;
+	font-family: arvo;
+	margin-top: 10%;
+}
+.content{
+	width: 100%;
+	margin: 10px auto;
+	padding-top: 100px;
+}
+
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;
+}
+.menu{
+	background-color: #FFA500;
+	border: 1px solid #f0f0f0;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+
+div.isi{
+	text-align: center;
+	padding: 30px 20px;
+}
+.footer{
+	width: 100%;
+	margin: 10px auto;
+}
+footer{
+	background-color: #FFA500;
+	padding: 4px 6px;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+nav {
+	&.primary-navigation {
+	  margin: 0 auto;
+	  display: block;
+	
+	  padding: 5px;  
+	  font-size: 14px;
+  
+	  ul li {
+		list-style: none;
+		margin: 0 auto;
+		border-left: 2px solid #f0f0f0;
+		display: inline-block;
+		padding: 0 25px;
+		position: relative;
+		text-decoration: none;
+		text-align: center;
+	  }
+  
+	  li a {
+		color: black;
+	  }
+  
+	  li a:hover {
+		color: #f0f0f0;
+	  }
+  
+	  li:hover {
+		cursor: pointer;
+	  }
+  
+	  ul li ul {
+		visibility: hidden;
+		opacity: 0;
+		position: absolute;
+  padding-left: 0;
+		left: 0;
+		display: none;
+		background: white;
+	  }
+  
+	  ul li:hover > ul,
+	  ul li ul:hover {
+		visibility: visible;
+		opacity: 1;
+		display: block;
+		min-width: 250px;
+		text-align: left;
+		padding-top: 10px;
+		box-shadow: 0px 3px 5px -1px #ccc;
+	  }
+  
+	  ul li ul li {
+		clear: both;
+		width: 100%;
+		text-align: left;
+		margin-bottom: 10px;
+		border-style: none;
+	  }
+  
+	  ul li ul li a:hover {
+		padding-left: 10px;
+		border-left: 2px solid #444;
+		transition: all 0.3s ease;
+	  }
+	}
+  }
+  
+  a {
+  
+	  text-decoration: none;
+  
+	  &:hover {
+		  color: #f0f0f0;
+	  }
+   
+  }
+  
+   ul li ul li a { transition: all 0.5s ease; }  
+
+.sekolah{
+margin-left: 200px;
+padding-bottom: 40px;
+margin-top: 20px;
+padding-top: 15px;
+}
+.biodata{
+	margin-left: 160px;
+	padding-bottom: 40px;
+	margin-top: 20px;
+	padding-top: 15px;
+}
+   .daftar{
+	margin-top: 10px;
+	font-size: 15px;
+   }
+   .daftar input{
+	border: none;
+	border-bottom: 1px solid black;
+	width: 950px;
+	margin-left: 10px;
+	padding: 7px;
+	font-size: 15px;
+	margin-top: 10px;
+   }
+   .tombol{
+	background-color: #FFA500;
+	color: #444;
+	border: none;
+	padding: 12px;
+	border-radius: 5px;
+	margin-top: 20px;
+	font-family: arvo;
+	font-size: 15px;
+	margin-left: 80%;
+   }
+   td{
+	border: #444;
+	margin-left: 20px;
+   }
+.dh4 {
+	border: 2px solid #FFA500;
+	font-size: 13px;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 6px;
+	background-color: #f0f0f0;
+	float: right;
+
+}
+.card{
+	padding-bottom: 15px;
+}
+.isicard{
+	padding-top: 10px;
+}
+.isicard h4{
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 4px;
+}
+.isicard img{
+	margin-bottom: 10px;
+}
+.isicard hr{
+	width: 250px;
+	margin-bottom: 20px;
+}
+.jarak{
+	border: 1px solid #707070;
+	width: 70%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 13%;
+	padding-left: 15px;
+}
+
+.tepi{
+	border: 2px solid #FFA500;
+	width: 80%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 10%;
+	padding-left: 30px;
+}
+.tepi p{
+	margin-left: 40px;
+
+}
+.login{
+	width:50%;
+	padding: 0.8em;
+	margin-top: 1em; 
+	border:1px solid #FFA500;  
+	font-family: arvo;
+	font-size:14px;
+	text-align:center;
+	border-radius:5px;
+	margin-left: 25%;
+  }
+  
+  .login input[type="submit"]{
+	width:90%;
+	margin-top: 2em; 
+	color: #444; 
+	background-color: #FFA500; 
+	padding: 0.8em; 
+	cursor:pointer; 
+	border:1px solid #f0f0f0; 
+	font-family: arvo;
+	border-radius:5px;
+  }
+
+  .container {
+	position: relative;
+	width: 40%;
+	background: #fff;
+	padding: 25px;
+	margin-left: 30%;
+	border-radius: 8px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 200px !important;
+	
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .container .form {
+	margin-top: 15px;
+  }
+  .form .input-box {
+	width: 90%;
+	margin-left: 1%;
+	margin-top: 10px;
+  }
+  .input-box label {
+	color: #333;
+	font-size: 13px;
+  }
+  .form :where(.input-box input) {
+	position: relative;
+	height: 30px;
+	width: 100%;
+	outline: none;
+	font-size: 11px;
+	color: #707070;
+	margin-top: 10px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 0 15px;
+	border-bottom: 1px solid black;
+  }
+  .input-box input:focus {
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+  }
+  .button input{
+	height: 40px;
+	width: 30%;
+	color: #444;
+	font-size: 15px;
+	font-weight: 400;
+	margin-top: 30px;
+	margin-left: 35%;
+	border: none;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	background: #FFA500;
+	border-radius: 10px;
+	font-family: arvo;
+	font: bold;
+  }
+  .pass label{
+	color: #333;
+	font-size: 13px;
+	font-family: arvo;
+  }
+  .pass input{
+	margin-top: 10px;
+	color: #333;
+	font-size: 11px;
+	width: 95%;
+	border: 1px solid #ddd;
+	text-align: left;
+	padding-left: 15px;
+	height: 30px;
+	border-radius: 6px;
+	font-family: arvo;
+  }
+  .form .user{
+	width: 90%;
+	margin-left: 1%;
+	margin-top: 10px;
+  }
+  .user label {
+	color: #333;
+	font-size: 13px;
+  }
+  .user input {
+	position: relative;
+	height: 30px;
+	width: 92%;
+	outline: none;
+	font-size: 11px;
+	color: #707070;
+	margin-top: 10px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 0 15px;
+	border-bottom: 1px solid black;
+  }
+  .user input:focus {
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+  }
+  .signup{
+	text-align: center;
+	margin-top: 4em;
+	margin-bottom: 1em;
+	font-size: 14px;
+	font-family: arvo;
+  }
