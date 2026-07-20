@@ -88,6 +88,10 @@ Sistem Pendaftaran Mahasiswa Berbasis Web merupakan aplikasi yang dikembangkan u
 - Halaman Daftar Prodi
 - Halaman Tambah Prodi
 
+# Author
+- **Author   :** RAHMI MARDIAH SAPUTRI
+- **Email    :** rahmimardiahsaputri@gmail.com
+- **Linkedin :** https://www.linkedin.com/in/rahmi-mardiah-saputri-7b6998420
 
 
 
